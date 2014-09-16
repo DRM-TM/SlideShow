@@ -1,0 +1,146 @@
+﻿<!doctype html>
+<html lang="en">
+
+	<head>
+		<meta charset="utf-8">
+
+		<title>Dream.</title>
+
+		<meta name="description" content="A framework for easily creating beautiful presentations using HTML">
+		<meta name="author" content="Hakim El Hattab">
+
+		<meta name="apple-mobile-web-app-capable" content="yes" />
+		<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+		<link rel="stylesheet" href="css/reveal.min.css">
+		<link rel="stylesheet" href="css/theme/night.css" id="theme">
+
+		<!-- For syntax highlighting -->
+		<link rel="stylesheet" href="lib/css/zenburn.css">
+
+		<!-- If the query includes 'print-pdf', include the PDF print sheet -->
+		<script>
+			if( window.location.search.match( /print-pdf/gi ) ) {
+				var link = document.createElement( 'link' );
+				link.rel = 'stylesheet';
+				link.type = 'text/css';
+				link.href = 'css/print/pdf.css';
+				document.getElementsByTagName( 'head' )[0].appendChild( link );
+			}
+		</script>
+		<!--[if lt IE 9]>
+		<script src="lib/js/html5shiv.js"></script>
+		<![endif]-->
+	</head>
+
+	<body>
+
+		<div class="reveal">
+
+			<!-- Any section element inside of this container is displayed as a slide -->
+			<div class="slides">
+				<section>
+					<h1>Dream<a>.</a></h1>
+					<h4>Everyone have one</h4>
+                    </br>
+					<p>
+						<small><a>ganich_j <br/> henner_d <br/> mendio_l</a></small>
+					</p>
+				</section>
+
+                <section>
+                    <h2>This dream was neat<br /> I want to <a>save</a> it</h2>
+                    <br />
+                    <p>
+                       Use your fingers, or your mic
+                    </p>
+                </section>
+
+				<section>
+					<h2>I have a Dream<br/> and I want to <a>share</a> it</h2>
+                    <br/>
+					<p>
+						Real time dream feed from everyone arround you<br/><br/>
+
+                        <!--Cause dreams are fun, and we like to share everything in these days.-->
+					</p>
+				</section>
+
+                <section>
+                    <h2>Wtf does this dream mean<br/> I want to <a>know</a></h2>
+                    <br />
+                    <p>
+                        Dream analysis
+                    </p>
+                </section>
+                <section>
+                    <h2>And also <a>...</a></h2>
+                    <br/>
+                    <ul>
+                        <li>Lullaby <a>/</a> Alarm</li>
+                        <li>Sleep cycle analysis</li>
+                        <li>Tips to help you sleep better <a>...</a></li>
+                        <li><a>...</a> and wake up easily</li>
+                    </ul>
+                </section>
+                
+                <section>
+                    <h2>TL;DR</h2>
+                    <br/
+                        <p>
+                            <h3>save, share, learn, enjoy</h3>
+                        </p>
+                    </h2>
+                </section>
+
+                <section>
+                        <h2 style="font-size:165%"><blocquote>"Nothing happens unless first a <a>dream</a>."</blocquote></h2>
+                        <cite>Carl Sandburg</cite>
+                </section>
+
+				<section>
+					<h1>THE END<a>.</a></h1><h4>or the beginning of something big, who knows</h4
+				</section>
+
+			</div>
+
+		</div>
+
+		<script src="lib/js/head.min.js"></script>
+		<script src="js/reveal.min.js"></script>
+
+
+		<script>
+
+			// Full list of configuration options available here:
+			// https://github.com/hakimel/reveal.js#configuration
+			Reveal.initialize({
+				controls: true,
+				progress: true,
+				history: true,
+				center: true,
+
+				theme: Reveal.getQueryHash().theme, // available themes are in /css/theme
+				transition: Reveal.getQueryHash().transition || 'default', // default/cube/page/concave/zoom/linear/fade/none
+
+				// Parallax scrolling
+				 parallaxBackgroundImage: 'https://s3.amazonaws.com/hakim-static/reveal-js/reveal-parallax-1.jpg',
+				 parallaxBackgroundSize: '2100px 900px',
+
+				// Optional libraries used to extend on reveal.js
+				dependencies: [
+					{ src: 'lib/js/classList.js', condition: function() { return !document.body.classList; } },
+					{ src: 'plugin/markdown/marked.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+					{ src: 'plugin/markdown/markdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+					{ src: 'plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } },
+					{ src: 'plugin/zoom-js/zoom.js', async: true, condition: function() { return !!document.body.classList; } },
+					{ src: 'plugin/notes/notes.js', async: true, condition: function() { return !!document.body.classList; } }
+				]
+			});
+
+		</script>
+
+	</body>
+</html>
